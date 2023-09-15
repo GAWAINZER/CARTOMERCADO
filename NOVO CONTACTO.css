@@ -1,0 +1,147 @@
+.categorias li{
+    display:inline-block; 
+    text-align: center;
+    width: 18%;
+    vertical-align: top;
+    border-color: black;
+    border-width:2px ;
+    border-style: solid;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+.categorias{
+    width: auto;
+    margin: 30px;
+    padding:   30px;
+}
+.categorias h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.categorias li:hover h2 {  
+    font-size: 23px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:orange;
+    text-decoration: underline;
+}
+.caja{
+    position: relative;
+    margin: auto;
+    width: 940px;
+}
+header{
+    background-color: rgb(96, 105, 105);
+    padding: 20px;
+
+}
+.categorias li:hover{
+    border-color:orange;
+    transform: scale(1.2);  
+}
+.categorias li:active{
+    border-color:rgb(245, 244, 242);  
+}
+footer{
+    text-align:center;
+    background-color: rgb(110, 106, 106);
+    padding: 10px;
+    
+}
+.copy{
+    color: white;
+    font-size: 8px;
+    margin: 15px;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+    
+}
+form{
+   margin: 40px; 
+}
+form label, form p{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+.input-patdron{
+    display: block;
+    margin: 0 0 10px;
+    padding: 8px 10px;
+    width: 50%;
+}
+.checkbox{
+    margin: 20px 0;
+}
+.enviar{
+    width: 90px;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    transition: 2s all;
+    cursor: pointer;
+
+}
+.enviar:active{
+    border-color:rgb(245, 244, 242); 
+}   
+.enviar:hover{
+    border-color:rgb(252, 164, 0); 
+    transform: scale(1.2);
+}     
+footer{
+    text-align:center;
+    background-color: rgb(29, 27, 27);
+    padding: 5px;
+    
+}
+.copy{
+    color: white;
+    font-size: 8px;
+    margin: 15px;
+}
+.logoini{
+   align-items: left; 
+   margin: 1px;
+   background-color: aliceblue;
+
+}
+.inicio{
+    height: 37px;
+    background-color: #ff3c01 ;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.ini1{
+    height: 37px;
+    background-color: #ff3c01 ;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+header .ini1 nav ul{
+    display: flex;
+}
+header .ini1 nav ul li{
+    display: block;
+    margin-right: 18px;
+}
+header .ini1 nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+}
